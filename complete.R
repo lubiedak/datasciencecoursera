@@ -27,7 +27,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
   
   ## Return the mean of the pollutant across all monitors list
   ## in the 'id' vector (ignoring NA values)
-  ## NOTE: Do not round the result!
+  ## Note: Do not round the result!
 
 
 complete <- function(directory, id = 1:332) {
